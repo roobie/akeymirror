@@ -1,0 +1,22 @@
+{
+  "name": "akeymirror",
+  "version": "1.0.0",
+  "description": "like keymirror, but takes an array instead of an object with unnecessart nulls.",
+  "main": "akeymirror.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roobie/akeymirror.git"
+  },
+  "keywords": [
+    "enum"
+  ],
+  "author": "Bjorn Roberg",
+  "license": "EPL-1.0",
+  "bugs": {
+    "url": "https://github.com/roobie/akeymirror/issues"
+  },
+  "homepage": "https://github.com/roobie/akeymirror#readme"
+}
