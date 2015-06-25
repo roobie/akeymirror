@@ -1,5 +1,5 @@
 # akeymirror
-like keymirror, but accepts an array instead of an object with unnecessary `null`s
+like [keymirror](https://www.npmjs.com/package/keymirror), but accepts an array instead of an object with unnecessary `null`s
 
 
 Create an enum like object where the keys are the same as their values based
