@@ -1,5 +1,8 @@
 'use strict';
 
+var forceArray = require('force-array');
+var toArray = require('arguments-to-array');
+
 /**
  * Create an enum like object where the keys are the same as their values based
  * on the strings in the supplied array.
@@ -19,16 +22,9 @@
  * @param {Array<String>} the array of enum values
  * @return {Object} the enumeration of the values.
  */
-module.exports = function aKeyMirror(list) {
-  var i, key, result = {};
-  if (!Array.isArray(list)) {
-    throw new Error('Argument must be an array.');
-  }
-
-  for(i = 0; i < list.length; i++) {
-    key = list[i];
-    result[key] = key;
-  }
-
-  return result;
-} 
+module.exports = function() {
+  return forceArray.apply(null, arguments).reduce(function(obj, key) {
+    obj[key] = key;
+    return obj;
+  }, {});
+};
