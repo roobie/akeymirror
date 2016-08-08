@@ -1,10 +1,10 @@
 {
   "name": "akeymirror",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "like keymirror, but takes an array instead of an object with unnecessart nulls.",
   "main": "akeymirror.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/roobie/akeymirror/issues"
   },
-  "homepage": "https://github.com/roobie/akeymirror#readme"
+  "homepage": "https://github.com/roobie/akeymirror#readme",
+  "dependencies": {
+    "force-array": "^3.1.0"
+  }
 }
