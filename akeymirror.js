@@ -1,7 +1,6 @@
 'use strict';
 
 var forceArray = require('force-array');
-var toArray = require('arguments-to-array');
 
 /**
  * Create an enum like object where the keys are the same as their values based
